@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Enemies {
-    class zombie {
+namespace Enemies{
+    class Zombie {
         
     }
 }
