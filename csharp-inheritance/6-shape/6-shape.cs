@@ -6,7 +6,7 @@ class Shape {
     }
 }
 
-class Rectangle:Shape{
+class Rectangle : Shape{
     private int width;
     private int height;
     public int Width {
