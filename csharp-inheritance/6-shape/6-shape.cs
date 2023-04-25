@@ -6,7 +6,7 @@ class Shape {
     }
 }
 
-class Rectangle : Shape{
+class Rectangle:Shape {
     private int width;
     private int height;
     public int Width {
@@ -20,7 +20,7 @@ class Rectangle : Shape{
             width = value;
         }
     }
-}
+
     public int Height {
         get {
             return height;
@@ -31,4 +31,5 @@ class Rectangle : Shape{
             }
             height = value;
         }
+}
 }
