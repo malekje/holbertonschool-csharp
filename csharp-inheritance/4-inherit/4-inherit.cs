@@ -2,4 +2,4 @@
 
 class Animal {}
 
-class dog:Animal{}
+class Dog:Animal{}
