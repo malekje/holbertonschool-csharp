@@ -39,10 +39,10 @@ class Rectangle:Shape {
     public override string ToString() {
         return (string.Format("[Rectangle] {0} / {1}", width, height));
     }
-    class Square:Rectangle
-{
+    
+}
+class Square:Rectangle {
     private int size;
-
     public int Size {
         get {
             return size;
@@ -52,8 +52,6 @@ class Rectangle:Shape {
                 throw new ArgumentException("Size must be greater than or equal to 0");
             }
             size = value;
-
         }
     }
-}
 }
