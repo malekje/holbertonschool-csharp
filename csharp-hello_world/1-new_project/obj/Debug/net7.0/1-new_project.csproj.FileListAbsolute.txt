@@ -1,0 +1,15 @@
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net7.0/1-new_project
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net7.0/1-new_project.deps.json
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net7.0/1-new_project.runtimeconfig.json
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net7.0/1-new_project.dll
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net7.0/1-new_project.pdb
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.csproj.AssemblyReference.cache
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.AssemblyInfoInputs.cache
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.AssemblyInfo.cs
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.csproj.CoreCompileInputs.cache
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.dll
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/refint/1-new_project.dll
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.pdb
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/1-new_project.genruntimeconfig.cache
+/workspaces/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net7.0/ref/1-new_project.dll
