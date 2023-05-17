@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/holbertonschool-csharp/csharp-ifelse_loops_methods/0-positive_or_negative/0-positive_or_negative.csproj": {}
+    "C:\\Users\\21696\\Desktop\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {}
   },
   "projects": {
-    "/workspaces/holbertonschool-csharp/csharp-ifelse_loops_methods/0-positive_or_negative/0-positive_or_negative.csproj": {
+    "C:\\Users\\21696\\Desktop\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/holbertonschool-csharp/csharp-ifelse_loops_methods/0-positive_or_negative/0-positive_or_negative.csproj",
+        "projectUniqueName": "C:\\Users\\21696\\Desktop\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
         "projectName": "0-positive_or_negative",
-        "projectPath": "/workspaces/holbertonschool-csharp/csharp-ifelse_loops_methods/0-positive_or_negative/0-positive_or_negative.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/holbertonschool-csharp/csharp-ifelse_loops_methods/0-positive_or_negative/obj/",
+        "projectPath": "C:\\Users\\21696\\Desktop\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
+        "packagesPath": "C:\\Users\\21696\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\21696\\Desktop\\holbertonschool-csharp\\0x01-csharp-ifelse_loops_methods\\0-positive_or_negative\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\21696\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "netcoreapp2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -35,25 +37,19 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
+        "netcoreapp2.1": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.201/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     }
