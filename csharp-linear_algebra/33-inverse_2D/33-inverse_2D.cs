@@ -1,36 +1,41 @@
 ﻿using System;
-//I was lazy SOrry jajajaajajaj  There is an error in the main holbi
-/// /// <summary>Class matrix</summary>
+using System.Collections;
+    
+/// <summary>
+/// This Class have a method to calculate the inverse of a 2D matrix.
+/// </summary>
 class MatrixMath
 {
-    /// <summary>Inverse a matrix</summary>
-    public static double[,] Inverse(double[,] matrix)
+    /// <summary>
+    /// This Method calculates the inverse of a 2D matrix and returns the resulting matrix.
+    /// </summary>
+    /// <returns>
+    /// The resulting matrix. If the matrix is not a 2D matrix or non-invertible,
+    /// return [-1].
+    /// </returns>
+    /// <param name="matrix">: Matrix to be inverted. </param>
+    public static double[,] Inverse2D(double[,] matrix)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-        double[,] MT = {{-1}};
-        
-
-        if (rows != 2)
-            return MT;
-        else
+        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2 &&
+            (matrix[0, 0]*matrix[1, 1] - matrix[0, 1]*matrix[1, 0]) != 0)
         {
-            if (matrix[0, 0] == 7)
+            double[,] inverseMatrix = new double[,] {
+                {matrix[1, 1], (-1)*matrix[0, 1]},
+                {(-1)*matrix[1, 0], matrix[0, 0]}
+            };
+            
+            // Determinant of Inverse Matrix => det(A^(-1)) = 1/det(A) 
+            double detInverMatrix = 1/(matrix[0, 0]*matrix[1, 1] - matrix[0, 1]*matrix[1, 0]);
+
+            for (int row = 0; row < matrix.GetLength(1); row++)
             {
-                double[,] matrix1 = { {0.15, -0.08}, {0.03, -0.18 } };
-                return matrix1;
+                for (int col = 0; col < matrix.GetLength(0); col++)
+                {
+                    inverseMatrix[row, col] = Math.Round(detInverMatrix*inverseMatrix[row, col], 2);
+                }
             }
-            if (matrix[0, 0] == 2)
-            {
-                double[,] matrix1 = { {0.5, 0},{-0.67, -0.17} };
-                return matrix1;
-            }
-            if (matrix[0, 0] == 3)
-            {
-                double[,] matrix1 =  { { 3, -3 }, { 1, -1 } };
-                return MT;
-            }
+            return inverseMatrix;
         }
-        return MT;
+        return new double[,] {{-1}};
     }
 }
